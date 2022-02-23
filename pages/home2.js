@@ -47,7 +47,7 @@ export default function Home() {
       <div id="woork done">
         <div className="">
           <div className="flex flex-col md:flex-row  rounded-lg bg-white shadow-lg ">
-            <img className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="" />
+            <img className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="http://localhost:3000/_next/static/media/Save%20a%20Life%20Campaign-3.8171b5a0.jpg" alt="" />
             <div className="p-6 flex flex-col justify-start">
               <p className="text-gray-700 text-base mb-4">
                 This is a wider card with supporting text below as a natural lead-in to additional content. This content is a 
@@ -73,7 +73,38 @@ export default function Home() {
           </div>
         </div>
       </div>
+        <h1>Logos</h1>
+      <div className='flex flex-col md:flex-row flex-wrap rounded-lg bg-white shadow-lg' >
+        <img src="http://localhost:3000/_next/static/media/BokLes.c08309d4.jpg" className='bg-p1  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+        <img src="http://localhost:3000/_next/static/media/CifiquePackaging.2e78dd7f.jpg" className='bg-p3  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+        <img src="http://localhost:3000/_next/static/media/Nonix%20Booking.44e07636.png" className='bg-p8  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/> 
+      </div>
+      <h1>Compagins</h1>
+      <div className='flex flex-col md:flex-row flex-wrap rounded-lg bg-white shadow-lg' >
+         <img src="http://localhost:3000/_next/static/media/Prince%20V_Boxing.eb6e7e65.jpg" className='bg-p10  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+         <img src="http://localhost:3000/_next/static/media/Save%20a%20Life%20Campaign-10.0ebe0171.jpg" className='bg-p14  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+        <img src="http://localhost:3000/_next/static/media/Save%20a%20Life%20Campaign-3.8171b5a0.jpg" className='bg-p15  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+      </div>
+    <h2>Businesses</h2>
+   <div className='flex flex-col md:flex-row flex-wrap rounded-lg bg-white shadow-lg' >
+    <img src="http://localhost:3000/_next/static/media/Orchard%20Ranches.0790abeb.jpg" className='bg-p9 w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+    <img src="http://localhost:3000/_next/static/media/CarsonFood.f1f9db07.jpg" className='bg-p2  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+    <img src="http://localhost:3000/_next/static/media/dog.7f6c8994.jpg" className='bg-p4  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
       
+   </div>
+
+
+
+
+
+
+      <h2>Others</h2>
+      <div className='flex flex-col md:flex-row flex-wrap rounded-lg bg-white shadow-lg relative left-auto' >  
+      <img src="http://localhost:3000/_next/static/media/GaryPhotograph.b33fea51.jpg" className='bg-p7  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+      <img src="http://localhost:3000/_next/static/media/EnganziTour2.4880c5ef.jpg" className='bg-p6  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+      <img src="http://localhost:3000/_next/static/media/EnganziTour.4fbcd185.jpg" className='bg-p5  w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg '/>
+    
+      </div>
   <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
   <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div className="mr-12 hidden lg:block">
